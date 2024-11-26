@@ -16,7 +16,7 @@ public class UIController : MonoBehaviour
     public TextMeshProUGUI ResolutionText;
 
     // The aspect ratio controller.
-    public AspectRatioController AspectController;
+    public AspectRatioControllerIl2CPP AspectController;
 
     /// <summary>
     /// Called when aspect sliders are moved.
@@ -51,5 +51,10 @@ public class UIController : MonoBehaviour
     public void ResolutionChanged(int width, int height, bool fullscren)
     {
         ResolutionText.text = "Resolution: <b>" + width + "x" + height + "</b>";
+    }
+
+    public void ResolutionChanged()
+    {
+        
     }
 }

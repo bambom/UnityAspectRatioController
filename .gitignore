@@ -35,3 +35,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+/AspectRatioControllerTest/PCil2cpp
+/AspectRatioControllerTest/PC
+/AspectRatioControllerTest/UserSettings
+/AspectRatioControllerTest/Logs
+/AspectRatioControllerTest/.idea
